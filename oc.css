@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('bg2.jpg');
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+.content {
+    color: white; /* Warna teks */
+    text-align: center; /* Memusatkan teks */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk teks */
+    border-radius: 10px; /* Sudut membulat */
+    max-width: 600px; /* Lebar maksimum konten */
+    margin: auto; /* Memusatkan konten */
+    position: relative; /* Untuk penempatan konten */
+    top: 50%; /* Mengatur posisi vertikal */
+    transform: translateY(-50%); /* Memusatkan konten secara vertikal */
+}
